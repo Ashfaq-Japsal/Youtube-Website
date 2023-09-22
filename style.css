@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(15, 15, 15);
+}
+
+@font-face {
+	font-family: 'GeosansLight';
+	src: local('GeosansLight'), url('./GeosansLight.woff') format('woff');
+}
+
+/* Nav Bar */
+.navbtn{
+    width: 3%;
+    padding-top: 12px;
+    margin-left: 2%;
+}
+
+.navbtn i{
+    cursor: pointer;
+}
+
+.YouTube{
+    padding-top: 12px;
+    /* border: 1px solid red; */
+}
+
+.YouTube i{
+    padding: 14% 0;
+    cursor: pointer;
+}
+
+.YouTube span{
+    font-family: 'GeosansLight';
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 4%;
+    color: white;
+    cursor: pointer;
+}
+
+li{
+    padding: 7px;
+    margin-right: 10px;
+
+}
+
+li.hover:hover{
+    background-color: rgb(51, 48, 48);
+}
+
+li div{
+    color: white;
+}
+
+.horizontalnav{
+    height: 55px;
+    margin-top: 1%;
+}
+
+input{
+    color: white;
+    background-color: rgb(15, 15, 15);
+    border: 1px solid rgb(51, 48, 48);
+    width: 70%;
+    height: 100%;
+    margin-left: 15%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+input[type=search]{
+    padding-left: 20px;
+}
+
+input[type=search]:focus{
+    outline: 1px solid blue;
+}
+
+::-webkit-input-placeholder{
+    color: gray;
+}
+
+.search{
+width: 65px;
+height: 41px;
+border: 1px solid rgb(51, 48, 48);
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+background-color: rgb(34, 34, 34);
+cursor: pointer;
+}
+
+.search i{
+    margin: 18px 21px;
+}
+
+li.microphone{
+    width: 40px;
+    height: 40px;
+    margin: 6px 0;
+    border-radius: 50%;
+    border: 1px solid rgb(51, 48, 48);
+    background-color: rgb(34, 34, 34);
+    cursor: pointer;
+}
+
+li.microphone:hover{
+    background-color: rgb(51, 51, 51);
+}
+
+li .fa-microphone{
+    margin-left: 4px;
+    margin-top: 10px;
+}
+
+li.create{
+    width: 40px;
+    height: 40px;
+    margin-top:7px ;
+    margin-left: 10%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+li.create:hover{
+    background-color: rgb(51, 51, 51);
+}
+
+li i.fa-square-plus{
+    margin:12px 2px;
+}
+
+li.notification{
+    width: 40px;
+    height: 40px;
+    margin-top:7px ;
+    margin-left: 2%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+li.notification:hover{
+    background-color: rgb(51, 51, 51);
+}
+
+li .fa-bell{
+    margin-left: 5px;
+    margin-top: 12px;
+}
+
+li.profile{
+    width: 40px;
+    height: 40px;
+    margin-top:7px ;
+    margin-left: 2%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+li.profile:hover{
+    background-color: rgb(51, 51, 51);
+}
+
+li .fa-user{
+    margin-left: 4px;
+    margin-top: 12px;
+}
+
+/* Content */
+div iframe{
+    border-radius: 20px;
+    margin: 0;
+}
